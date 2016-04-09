@@ -2,6 +2,9 @@ test/
 node_modules/
 npm-debug.log
 
+*.json
+.travis.yml
+
 #IDE
 .idea
 .vscode
