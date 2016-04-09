@@ -1,14 +1,14 @@
 var objectRouting = {
     /**
-     * @desc
+     * Глобальный контекст
      * @type {object}
      */
     context: undefined,
 
     /**
-	 * @desc Получть свойство из цепочки объектов
+	 * Получть свойство из цепочки объектов
 	 * @arg {string} path - Путь до свойтва в цепочке объектов
-	 * @context {object} [context=window] - Контекстный объект
+	 * @arg {object} [context=window] - Контекстный объект
      * @return {object|false}
      *  
      * @todo Отсутствует проверка и инкапсуляция на спецсимволы
@@ -25,7 +25,7 @@ var objectRouting = {
     },
 
     /**
-	 * @desc Получть контекст пути
+	 * Получть контекст пути
 	 * @arg {string|undefined} path - Путь до свойтва в цепочке объектов
      * @return {object|false}
      */
@@ -35,7 +35,7 @@ var objectRouting = {
     },
 
     /**
-	 * @desc Получть Имя свойства
+	 * Получть Имя свойства
 	 * @arg {string} path - Путь до свойтва в цепочке объектов
      * @return {string}
      */
@@ -45,7 +45,7 @@ var objectRouting = {
     }, 
 
     /**
-	 * @desc Проверить на существование свойство относительно пути
+	 * Проверить на существование свойство относительно пути
 	 * @arg {string} path - Путь до свойтва в цепочке объектов
      * @return {boolean}
      */
@@ -55,7 +55,7 @@ var objectRouting = {
     },
     
     /**
-     * @desc Установить контекст
+     * Установить контекст
      * @arg {object|undefined} [context=window] context - 
      */
     setGlobal: function (context) {
