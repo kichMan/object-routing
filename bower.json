@@ -1,0 +1,28 @@
+{
+  "name": "object-routing",
+  "description": "Routing of object by path from string",
+  "main": "object-routing.js",
+  "authors": [
+    "kichMan"
+  ],
+  "license": "ISC",
+  "keywords": [
+    "routing",
+    "object",
+    "path",
+    "storage",
+    "collection",
+    "js",
+    "web"
+  ],
+  "homepage": "https://github.com/kichMan/object-routing",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kichMan/object-routing.git"
+  },
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "test"
+  ]
+}
