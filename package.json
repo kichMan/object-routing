@@ -1,0 +1,32 @@
+{
+  "name": "object-routing",
+  "version": "0.0.1",
+  "description": "Routing of object by path from string",
+  "main": "object-routing.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kichMan/object-routing.git"
+  },
+  "keywords": [
+    "routing",
+    "object",
+    "path",
+    "storage",
+    "collection"
+  ],
+  "author": "kichMan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kichMan/object-routing/issues"
+  },
+  "homepage": "https://github.com/kichMan/object-routing#readme",
+  "devDependencies": {
+    "mocha": "^2.4.5"
+  }
+}
