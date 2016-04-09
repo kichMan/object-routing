@@ -1,2 +1,2 @@
 # object-routing
-Маршрутизация по объекту
+Routing of object by path from string
