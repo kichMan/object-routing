@@ -26,6 +26,7 @@
     "test",
     ".gitignore",
     ".npmignore",
-    "*.json"
+    "*.json",
+    "*.yml"
   ]
 }
