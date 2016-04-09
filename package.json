@@ -1,6 +1,6 @@
 {
   "name": "object-routing",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "description": "Routing of object by path from string",
   "main": "object-routing.js",
   "directories": {
