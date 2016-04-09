@@ -23,6 +23,9 @@
   "ignore": [
     "**/.*",
     "node_modules",
-    "test"
+    "test",
+    ".gitignore",
+    ".npmignore",
+    "*.json"
   ]
 }
